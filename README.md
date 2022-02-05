@@ -25,8 +25,16 @@ Using the FixedUpdate() method, since it can run once, zero, or several times pe
 
 ### Fz =AB * sinφ
 
+## Demonstration of tasks I & II
+
+https://user-images.githubusercontent.com/32577771/152621499-e8d0709c-cba1-414b-a089-1976d273fda1.mov
+
 ## III
 For the third part, gravity and linear drag forces were not taken into consideration. Moreover, the kinetic energy remains the same. The important part here was to detect whether the particles were approaching each other or not. The pushing force against each other is inversely proportional to their distance. Here we decided not to decompose the force, since it is not a consistent force. So the acceleration of the particle is affected, on each axis, by the distance between the particles.
+
+## Demonstration of task III
+
+https://user-images.githubusercontent.com/32577771/152621539-d0e1cd01-9bb9-4897-bc2f-390f1fc16d75.mov
 
 ## IV & V
 Lastly, we implemented a bird flocking prefab that was downloaded from the Unity's Asset store and we also decorated the scene with lanterns that were lit by a particle system of special effects (such as lightning and smoke).
